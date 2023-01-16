@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Document</title>
+</head>
+<body>
+    <!-- Navbar -->
+    <navbar class="navbar">
+        <button class="hamburger" id="mobile-btn">
+            <div class="hamburger-top"></div>
+            <div class="hamburger-middle"></div>
+            <div class="hamburger-bottom"></div>
+        </button>
+        <img src="" alt="">
+        <div class="container">
+            <a class="logo">
+                <img src="./assets/img/Logo 1.png" alt="">
+            </a>
+            <ul class="menu">
+              <li>
+                <a class="border active" href="#">Home</a>
+              </li>  
+              <li>
+                <a class="border" href="#">Products</a>
+              </li>  
+              <li>
+                <a class="border" href="#">Categories</a>
+              </li>  
+              <li>
+                <a class="border" href="#">About</a>
+              </li>  
+              <li>
+                <a class="border" href="#">Contact Us</a>
+              </li>  
+            </ul>
+            <div class="right-menu">
+                <a href="#">
+                    <i class="fas fa-search"></i>
+                </a>
+                <a href="#"><i class="fas fa-shopping-cart"></i></a>
+            </div>
+        </div>
+        <ul class="mobile-nav-menu" id="mobile-menu">
+            <li>
+              <a class="border active" href="#">Home</a>
+            </li>  
+            <li>
+              <a class="border" href="#">Products</a>
+            </li>  
+            <li>
+              <a class="border" href="#">Categories</a>
+            </li>  
+            <li>
+              <a class="border" href="#">About</a>
+            </li>  
+            <li>
+              <a class="border" href="#">Contact Us</a>
+            </li>  
+          </ul>
+    </navbar>
+
+
+
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="text-content">
+                <h1 class="fs-large">Exclusive Deals of Furniture Collection</h1>
+                <p class="my">Explore different categories. Find the best deals.</p>
+                <button class="btn btn-primary">Shop Now</button>
+            </div>
+            <!-- <div class="img-wrapper">
+                should be img on this side
+                <img src="" alt="">
+            </div> -->
+
+        </div>
+    </header>
+
+    <!-- Category -->
+    <section class="category mb-4">
+        <h1 class="text-center fs-large my-3">Explore by Category</h1>
+        <div class="container">
+            <div class="category-list">
+                <div class="search-wrapper">
+                    <i class="fas fa-search"></i>
+                    <input type="text" placeholder="Search" name="search" id="search">
+                </div>
+                <ul class="cat-list">
+                    <li class="cat-active"><a href="#">Bedroom</a></li>
+                    <li><a href="#">Dinning Room</a></li>
+                    <li><a href="#">Meeting Room</a></li>
+                    <li><a href="#">Workspace</a></li>
+                    <li><a href="#">Living Room</a></li>
+                    <li><a href="#">Kitchen</a></li>
+                    <li><a href="#">Living Space</a></li>
+                    <div class="cat-line"></div>
+                    <div class="circle circle-up">
+                        <i class="fas fa-arrow-up"></i>
+                    </div>
+                    <div class="circle circle-down">
+                        <i class="fas fa-arrow-down"></i>
+                    </div>
+                </ul>
+                <button class="btn btn-primary btn-arrow">
+                    All Categories
+                    <span><i class="fas fa-arrow-right"></i></span>
+                </button>
+            </div>
+            <div class="category-cards">
+                    <!-- <div class="card-container"> -->
+                        <a href="#" class="cat-card active-card">
+                            <div class="card text-center ">
+                                <h2 class="fs-large">Bedroom</h2>
+                                <button class="btn btn-secondary my">
+                                    Explore
+                                </button>
+                            </div>
+                        </a>
+                        <a href="#" class="cat-card">
+                            <div class="card">
+                                <h2 class="fs-large">Dinning Room</h2>
+                                <button class="btn btn-secondary my">
+                                    Explore
+                                </button>
+                            </div>
+                        </a>
+                        <a href="#" class="cat-card">
+                            <div class="card">
+                                <h2 class="fs-large">Meeting Room</h2>
+                                <button class="btn btn-secondary my">
+                                    Explore
+                                </button>
+                            </div>
+                        </a>
+                        <a href="#" class="cat-card">
+                            <div class="card">
+                                <h2 class="fs-large">Workspace</h2>
+                                <button class="btn btn-secondary my">
+                                    Explore
+                                </button>
+                            </div>
+                        </a>
+                        <a href="#" class="cat-card">
+                            <div class="card">
+                                <h2 class="fs-large">Living Room</h2>
+                                <button class="btn btn-secondary my">
+                                    Explore
+                                </button>
+                            </div>
+                        </a>
+                        <a href="#" class="cat-card">
+                            <div class="card">
+                                <h2 class="fs-large">Kitchen Room</h2>
+                                <button class="btn btn-secondary my">
+                                    Explore
+                                </button>
+                            </div>
+                        </a>
+                        
+                    <!-- </div> -->
+                
+            </div>
+        </div>
+    </section>
+
+    <!-- Popular Products -->
+    <section class="popular-products text-center">
+        <h1 class="fs-large text-center my-2">Popular Products</h1>
+        <img src="./assets/img/Image-container.png" class="bg-img" alt="">
+        <div class="card-container">
+            <a href="#" class="popular-cards">
+                <div class="popular-card ">
+                    <div class="img-wrapper">
+                        <img src="./assets/img/chair1.png" alt="">
+                    </div>
+                    <div class="text-container text-left">
+                        <h2 class="fs-small">Armchair</h2>
+                        <p class="my fw-2">Light single chair</p>
+                        <span class="fw-5">$145</span>
+                    </div>
+                </div>
+            </a>
+            <a href="#" class="popular-cards ">
+                <div class="popular-card bg-1">
+                    <div class="img-wrapper">
+                        <img src="./assets/img/chair 2.png" alt="">
+                    </div>
+                    <div class="text-container text-left">
+                        <h2 class="fs-small">Premium Sofa</h2>
+                        <p class="my fw-2">Light single chair</p>
+                        <span class="fw-5">$145</span>
+                    </div>
+                </div>
+            </a>
+            <a href="#" class="popular-cards">
+                <div class="popular-card bg-2">
+                    <div class="img-wrapper">
+                        <img src="./assets/img/unnamed 1.png" alt="">
+                    </div>
+                    <div class="text-container text-left">
+                        <h2 class="fs-small">Minimal Sofa</h2>
+                        <p class="my fw-2">Light single chair</p>
+                        <span class="fw-5">$145</span>
+                    </div>
+                </div>
+            </a>
+            <a href="#" class="popular-cards">
+                <div class="popular-card bg-3">
+                    <div class="img-wrapper">
+                        <img src="./assets/img/11-chair-png-image 1.png" alt="">
+                    </div>
+                    <div class="text-container text-left">
+                        <h2 class="fs-small">Dinning Chair</h2>
+                        <p class="my fw-2">Light single chair</p>
+                        <span class="fw-5">$145</span>
+                    </div>
+                </div>
+            </a>
+             
+        </div>
+            <button class="btn btn-primary btn-arrow mt ">
+                Explore all items
+                <span><i class="fas fa-arrow-right"></i></span>
+            </button>
+    </section>
+
+
+    <!-- Own-Creation -->
+    <section class="own-creation my-4">
+        <div class="card-container">
+            <a href="#" class="own-cards">
+                <div class="own-card span">
+                    <div class="text-container text-left green-card">
+                        <h3>Our <br> Own Creation</h3>
+                        <p>Designed in our studio</p>
+                        <div class="own-info">
+                            <a href="#">More</a>
+                            <div class="own-line">
+                                <div class="dark progress-line"></div>
+                                <div class="white progress-line"></div>
+                            </div>
+                            <div class="own-circle">
+                                <div class="circle circle-up">
+                                    <i class="fas fa-arrow-left"></i>
+                                </div>
+                                <div class="circle circle-down">
+                                    <i class="fas fa-arrow-right"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </a>
+            <a href="#" class="own-cards">
+                <div class="own-card card">
+                    <div class="img-wrapper">
+
+                    </div>
+                    <div class="text-container text-left">
+                        <button class="btn btn-secondary">Explore all Rooms</button>
+                    </div>
+                </div>
+            </a>
+            <a href="#" class="own-cards">
+                <div class="own-card card">
+
+                    <div class="text-container text-left">
+                        <button class="btn btn-secondary">Explore all Rooms</button>
+                    </div>
+                </div>
+            </a>
+            <a href="#" class="own-cards">
+                <div class="own-card card">
+
+                    <div class="text-container text-left">
+                        <button class="btn btn-secondary">Explore all Rooms</button>
+                    </div>
+                </div>
+            </a>
+            <a href="#" class="own-cards">
+                <div class="own-card card">
+                    <div class="img-wrapper">
+
+                    </div>
+                    <div class="text-container text-left">
+                        <button class="btn btn-secondary">Explore all Rooms</button>
+                    </div>
+                </div>
+            </a>
+        </div>
+    </section>
+
+    <!--  -->
+
+    <section class="benifits bg-light mb-4">
+        <div class="conatiner">
+            <h1 class="text-center fs-large my-3">Benifits for your expediency</h1>
+            <div class="benifit-cards my-3">
+                <div class="benifits-card">
+                    <div class="card-img">
+                        <img src="./assets/img/Icon.png" alt="">
+                    </div>
+                    <h3 class="my">Payment Method</h3>
+                    <p>We offer flexible payment options, to make easier.</p>
+                </div>
+                <div class="benifits-card">
+                    <div class="card-img">
+                        <img src="./assets/img/Icon (1).png" alt="">
+                    </div>
+                    <h3 class="my">Return Policy</h3>
+                    <p>You can return a product within 30 days.</p>
+                </div>
+                <div class="benifits-card">
+                    <div class="card-img">
+                        <img src="./assets/img/Frame.png" alt="">
+                    </div>
+                    <h3 class="my">Cutomer Support</h3>
+                    <p>Our customer support is 24/7.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testomonials -->
+    <section class="testimonials mb-4">
+        <h1 class="fs-large text-center ">Testimonials</h1>
+        <p class="text-center fs-medium mb-2">Over 15,000 happy cutomers.</p>
+        <div class="container">
+            <div class="testmonial-container">
+                <div class="testimonial-card">
+                    <span>&#8220;</span>
+                    <div class="card-wrapper">
+                        <!-- <img src="" alt=""> -->
+                    </div>
+                </div>
+                <div class="testimonial-text">
+                    <p class="fs-medium">
+                        “My experience with Mark is a complete sucess, from customer service, wide range of products, clean store, purchasing experience, the newsletter.Thank you.”
+                    </p>
+                    <div class="card-info">
+                        <h4>Leona Paul</h4>
+                        <span>CEO of Floatcom</span>
+                    </div>
+                </div>
+                <div class="testimonial-circle">
+                    <div class="circle circle-up">
+                        <i class="fas fa-arrow-left"></i>
+                    </div>
+                    <div class="circle circle-down">
+                        <i class="fas fa-arrow-right"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="testimonial-footer">
+            <div class="testimonilas-line"><img src="./assets/img/Line 5.png" alt=""></div>
+            <button class="btn btn-light btn-arrow mt ">
+                See all review
+                <span><i class="fas fa-arrow-right"></i></span>
+            </button>
+        </div>
+    </section>
+
+    <section class="newsletter-section mb-4">
+        <div class="grid newsletter-grid">
+            <div class="bg-light-2 box-1 box">
+                <img src="./assets/img/Image container.png" alt="">
+            </div>
+            <div class="newsletter bg-light-3 box-2 box">
+                <div class="news-text">
+                    <h1 class="fs-x-large fw-1">Join Our <br>
+                    <span class="fw-bold">Newsletter</span>
+                    </h1>
+                    <p class="my-2">Recieve exclusive deals, discounts and many offers.</p>
+                    <div class="input-wrapper">
+                        <input type="email" name="email" id="email" placeholder="Enter your email">
+                    </div>
+                    <button class="btn btn-primary my-2">
+                        Subscribe
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-inner">
+                <div class="footer-left">
+                    <div class="logo">
+                        <a href="#"><img src="./assets/img/Logo 1.png" alt=""></a>
+                    </div>
+                    <ul class="social-icons">
+                        <li>
+                            <a href="#"><i class="fab fa-facebook"></i></a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fab fa-linkedin"></i></a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fas fa-globe"></i></a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                        </li>
+                    </ul>
+                    <div class="address">
+                        <h4 class="mb-1">Adress</h4>
+                        <span>+123 654 987</span>
+                        <br>
+                        <span>877 The Bronx, NY</span>
+                        <br>
+                        <span>14568, USA</span>
+                    </div>
+                </div>
+                <div class="footer-right">
+                    <ul>
+                        <li>My Account</li>
+                        <li><a href="#">Sign in</a></li>
+                        <li><a href="#">Register</a></li>
+                        <li><a href="#">Order Status</a></li>
+                    </ul>
+                    <ul>
+                        <li>Help</li>
+                        <li><a href="#">Shipping</a></li>
+                        <li><a href="#">Returns</a></li>
+                        <li><a href="#">Sizing</a></li>
+                    </ul>
+                    <ul>
+                        <li>Shop</li>
+                        <li><a href="#">All Products</a></li>
+                        <li><a href="#">Bedrooms</a></li>
+                        <li><a href="#">Dinning Room</a></li>
+                    </ul>
+                    <ul>
+                        <li>Legal Stuff</li>
+                        <li><a href="#">Shipping & Delivery</a></li>
+                        <li><a href="#">Terms & Conditions</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                    </ul>
+                </div>
+            </div>
+            <span class="footer-bottom">Copyright &copy;2020 INWOOD. All Rights Reserved</span>
+        </div>
+    </footer>
+
+
+    <script src="app.js"></script>
+</body>
+</html>
